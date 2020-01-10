@@ -1,0 +1,136 @@
+.g-hd{
+	background:#1874CD;
+	padding-left:8px;
+}
+
+.logo-bar{
+	width:358px;
+	float:left;
+	height:50px;
+	line-height:50px;
+	color:#fff;
+	font-size:20px;
+}
+
+.login-bar{
+	width:200px;
+	float:right;
+	color:#fff;
+	text-align:right;
+	padding-right:8px;
+	overflow:hidden;
+	margin-top:14px;
+}
+
+.g-nav{
+	font-weight:bold;
+	background:#eee;
+	padding:8px 0px 8px 4px;
+	overflow:hidden;
+}
+.g-nav>ul{
+	width:800px;
+}
+
+a.btn{ display:block; height:29px; line-height:29px; text-align:center; background:#1874CD; color:#fff; }
+a.btn:hover{ background:#cc0000; }
+
+.g-md{
+	min-height:300px;
+	height:expression_r( this.scrollHeight < 301 ? "300px" : "auto" );
+}
+.g-qbar,.g-content{
+}
+.g-qbar{
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:8px;
+	border-bottom:1px #ccc dotted;
+	margin-bottom:8px;
+}
+
+.tb-qbar td{
+	color:#3f3f3f;
+	padding-right:8px;
+}
+.tb-qbar .u-ipt{
+	text-align:center;
+	color:#666;
+	font-weight:bold;
+}
+.m-dt{
+	width:100%;
+}
+.m-dt th,.m-dt td{
+	border:1px #ccc solid;
+	vertical-align:top;
+	padding:4px;
+}
+
+.m-dt th {
+	background:#1874CD;
+	font-weight:bold;
+	color:#fff;
+}
+.m-dt th:first-child{
+	width:39px;
+}
+.m-dt td {
+	font-weight:bold;
+	color:#666;
+}
+.m-pgbar{
+	background:#ccc;
+	padding:4px;
+	text-align:center;
+	font-weight:bold;
+}
+.m-pgbar a,.m-pgbar span{
+	margin-right:10px;
+}
+.g-ft{
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	background:#fff;
+	color:#1874CD;
+}
+
+.f-b1px{
+	border:1px #1874CD dotted;
+}
+
+table.m-details td{
+	padding:8px;
+	text-align:right;
+	font-weight:bold;
+}
+.f-bar{
+	background:#ccc;
+	height:38px;
+	line-height:38px;
+}
+a.download,
+a.details,
+a.edit,a.del,a.cancel,a.add,a.confirm,
+a.delExam,a.setupPaper,a.startExam,a.checkPaper,a.stopExam,a.marking,a.checkScore,
+a.toTkgl,a.arrangeExam,a.confirmExam,a.cancelArrange,a.finish,
+a.save{
+	color:blue;
+	margin-right:8px;
+	font-weight:bold;
+}
+
+a.download:hover,
+a.details:hover,
+a.edit:hover,a.del:hover,a.cancel:hover,a.add:hover,a.confirm:hover,
+a.delExam:hover,a.setupPaper:hover,a.startExam:hover,a.checkPaper:hover,a.stopExam:hover,a.marking:hover,a.checkScore:hover,
+a.toTkgl:hover,a.arrangeExam:hover,a.confirmExam:hover,a.cancelArrange:hover,a.finish:hover,
+a.save:hover{
+	color:#DC143C;
+	margin-right:8px;
+}
+
+
+

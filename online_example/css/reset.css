@@ -1,0 +1,51 @@
+﻿/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font: 14px/1.5 tahoma,Microsoft Yahei,\5b8b\4f53,sans-serif;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+
+/*write by fcq*/
+
+/*清浮动*/
+.f-cb{clear:both;}
+/*文本框*/
+.u-ipt{padding:5px;height:17px;border:1px solid #D9D9D9;border-top-color:#c0c0c0;line-height:17px;font-size:14px;color:#777;background:#fff;}
+/*水平导航栏*/
+.u-s-nav{ overflow:hidden; }
+.u-s-nav li{ width:80px; float:left; }
+.u-s-nav a:link,.u-s-nav a:visited { display:block; color:#3f3f3f; text-align:left; padding:4px; }
+.u-s-nav a:hover,.u-s-nav a:active { color:#cc0000;}
+/*input disabled sytle*/
+input[disabled],input:disabled{
+border:1px solid #DDD;
+background-color:#F5F5F5;
+color:#ACA899;
+}
+/*IE6 Using Javascript to add CSS class "disabled"*/
+* html input.disabled{
+border:1px solid #DDD;
+background-color:#F5F5F5;
+color:#ACA899;
+}
+
+
+/*自定义按钮
+a.btn{ display:block; height:28px; line-height:28px; text-align:center; background:#1874CD; color:#fff; }
+a.btn:hover{ background:#2080d0; }
+*/

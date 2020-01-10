@@ -1,0 +1,18 @@
+<?php
+	$sql="select * from {$tbName} where {$idName} = '{$idValue}'";
+	$row=$db->getRow($sql);
+?>
+<div class="g-md">
+	<div class="g-content">
+		<div class="f-b1px">
+			<table class="m-details" id="m-details"><?php
+				display_details($row,$cols);
+			?></table>
+		</div>
+	</div>
+</div>
+
+
+
+
+
